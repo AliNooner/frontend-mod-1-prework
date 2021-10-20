@@ -23,33 +23,65 @@ console.log(enrolledStudents);
 // YOU DO:
 // Write code below to save the string 'Harry Potter must not return to Hogwarts!'
 // log that variable to the console.
-
+var title = 'Harry Potter must not return to Hogwarts!'
+console.log(title)
+// This will log the string 'Harry Potter must not return to Hogwarts'
 
 // YOU DO:
-// Declare three variables, named `firstName`, `isHungry` and `numberOfPets`. 
+// Declare three variables, named `firstName`, `isHungry` and `numberOfPets`.
   // Store the appropriate data types in each.
 // log all three variables to the console.
+var firstName;
+firstName = 'Ali';
+console.log(firstName)
+// this will log the first name
+
+var isHungry;
+var isNotHungry;
+isHungry = false;
+isNotHungry = true;
+console.log(isHungry)
+// this will log if hungry
+
+var numberOfPets;
+numberOfPets = 1
+console.log(numberOfPets)
+// this will log the number of pets
 
 // IN WORDS:
-// How did you decide to use the data type you did for each of the three variables above? 
+// How did you decide to use the data type you did for each of the three variables above?
   // Explain.
 
+// I chose String for firstName because it is a series of characters
+// I chose Boolean for isHungry because it is a true or false statement
+// I chose Numeric for numberOfPets because it is a number/quantity
 
 // YOU DO:
-// Re-assign the values to the three variables from the previous challenge to different 
+// Re-assign the values to the three variables from the previous challenge to different
   // values (but same data type).
 // log all three variables to the console.
+firstName = 'Lara';
+console.log(firstName) // reassign first name
 
+isHungry = false;
+isNotHungry = true;
+console.log(isHungry) // reassign is hungry
+
+numberOfPets = 5
+console.log(numberOfPets) // reassign number of pets
 
 // YOU DO:
 // Using the variables below, log the total number of snacks to the console:
 var healthySnacks = 6;
 var junkFoodSnacks = 8;
+var total = healthySnacks + junkFoodSnacks;
 
+console.log(total)
+// this will log total number of snacks
 
 //-------------------
 // FINAL CHECK
 //-------------------
 
-// Did you run this file in your terminal to make sure everything printed out to the console 
-// as you would expect? 
+// Did you run this file in your terminal to make sure everything printed out to the console
+// as you would expect?

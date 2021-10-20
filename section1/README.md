@@ -12,7 +12,7 @@ Section 1 is estimated to take a total of 6-10 hours to complete. Part C is the 
 
 If you've talked to any alum or near-alum of Turing, one thing they likely shared is "Turing teaches you how to learn". For creators of tech, the learning never ends. Not after graduating a program, not after 20 years of experience. We will provide more support as you are starting out, then release some of that support so you are equipped to learn on your own once you graduate. While we provide more support at the beginning, we also intentionally support you in building skills and habits that will help you do that successfully.
 
-One of those pieces is in how developers approach vocabulary. Knowing technical vocabulary will allow you to get more out of reading doucmentation and tutorials, and will allow you to communicate well with teams and ask good questions when you need help. Each section of your pre-work (and each lesson once you start Mod 1) will start with a vocabulary section. We don't always give you the definitions - this is intentional. You will create your own definition after having several opportunities to read definitions and see examples.
+One of those pieces is in how developers approach vocabulary. Knowing technical vocabulary will allow you to get more out of reading documentation and tutorials, and will allow you to communicate well with teams and ask good questions when you need help. Each section of your pre-work (and each lesson once you start Mod 1) will start with a vocabulary section. We don't always give you the definitions - this is intentional. You will create your own definition after having several opportunities to read definitions and see examples.
 
 Here's what we ask you do:
 - Find a special spot in your notebook for vocabulary and JavaScript reserved keywords. Mark it with a post-it or bookmark, so it's easy to find and come back to
@@ -41,7 +41,7 @@ Here's what we ask you do:
 
 ## Part A Super Learner Habits
 
-Read [this article](https://pubs.ppai.org/pc-today/six-habits-of-super-learners/) about the habits of Super Learners. Reflect on this - what do you already do? Does this make you want to do anything new or different as you beginthis learning journey? Jot down your notes now, and we will ask you to share some reflections with your small group at the end of this section.
+Read [this article](https://pubs.ppai.org/pc-today/six-habits-of-super-learners/) about the habits of Super Learners. Reflect on this - what do you already do? Does this make you want to do anything new or different as you begin this learning journey? Jot down your notes now, and we will ask you to share some reflections with your small group at the end of this section.
 
 ## Part B Terminal
 
@@ -213,7 +213,7 @@ The last String in the previous example is interpreted as a String even though i
 
 The **Boolean** data types evaluates to one of two values: `true` or `false`. This data type can seem a little abstract, but Booleans are very helpful in helping us determine which script should run.
 
-There are many cases in whie we want to ask a program a question, such as "Does the username and password typed in match what we have in the database?". This is a yes/no question. We will ask the program the question in a way that it will respond with `true` or `false`. Here are a couple of examples:
+There are many cases in which we want to ask a program a question, such as "Does the username and password typed in match what we have in the database?". This is a yes/no question. We will ask the program the question in a way that it will respond with `true` or `false`. Here are a couple of examples:
 
 _These are all examples of statements that evaulate to a `Boolean` data type in JavaScript:_
 
@@ -310,13 +310,13 @@ Let's take a look at why that resulted in a string. We have a variable called `s
 > 👩‍💻 PAUSE here, and complete the exercises in `concatenation.js`
 
 ### Interpolation
-In addition to concatenation, you may also have seen interpolation used to inject values into strings! One benefit of interpolation is that it can be easier to read in longer strings and don't require concatenating separate strings together. 
+In addition to concatenation, you may also have seen interpolation used to inject values into strings! One benefit of interpolation is that it can be easier to read in longer strings and don't require concatenating separate strings together.
 
 Interpolation requires slightly different syntax to inject values into a string. Follow the below formula to utilize interpolation:
 1. Use the backtick (same key as the `~`, or the key to the left of the `1` key on a mac) to wrap your entire string
 2. Any values that you want to add in, use the following syntax - `${variable_name}` to properly wrap these values
 
-Take a look at these two sentences, one using concatenatoion, the other using interpolation.
+Take a look at these two sentences, one using concatenation, the other using interpolation.
 
 ```JavaScript
 var quantity = 12;
