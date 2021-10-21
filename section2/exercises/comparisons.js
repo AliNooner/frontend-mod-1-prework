@@ -24,10 +24,10 @@ console.log("Is numberTeachers greater than numberStudents?", numberTeachers > n
 
 // YOU DO: log the result of the comparison: is numberTeachers less than numberStudents?
 // this should log: true
-
+console.log("Is numberTeachers less than numberStudents?", numberTeachers < numberStudents);
 // YOU DO: log the result of the comparison: is numberTeachers equal to stringTeachers? (use the == operator)
 // this should log: true
-
+console.log("Is numberTeachers equal to stringTeachers?", numberTeachers == numberStudents);
 /*
 Note: this is an example of type coercion. Although stringTeachers is a string and numberStudents is an integer,
 this statement still evaluated to true. JavaScript forces the stringTeachers into an integer to
@@ -36,7 +36,7 @@ perform this evaluation
 
 // YOU DO: log the result of the comparison: is numberTeachers strictly equal to stringTeachers? (use the === operator)
 // this should log: false
-
+console.log("Is numberTeachers strictly equal to stringTeachers?", numberTeachers === numberTeachers);
 /*
 Note: the strictly equal to operator compares the value of the variable in addition to the type of the variable.
 since the numberTeachers is an integer value and the stringTeachers is a string value, although they are both equal to 4,
@@ -49,19 +49,19 @@ you develop good habits that follow best practice, from now on, use the strict c
 
 // YOU DO: log the result of the comparison: is numberTeachers not equal to numberStudents?
 // this should log: true
-
+console.log("Is numberTeachers not equal to numberStudents?", numberTeachers != numberStudents);
 // YOU DO: log the result of the comparison: is numberStudents greater than or equal to 20?
 // this should log: true
-
+console.log("Is numberStudents greater than or equal to 20?", numberStudents >= 20);
 // YOU DO: log the result of the comparison: is numberStudents greater than or equal to 21?
 // this should log: false
-
+console.log("Is numberStudents greater than or equal to 21?", numberStudents >= 21);
 // YOU DO: log the result of the comparison: is numberStudents less than or equal to 20?
 // this should log: true
-
+console.log("Is numberStudents less than or equal to 20?", numberStudents <= 20);
 // YOU DO: log the result of the comparison: is numberStudents less than or equal to 21?
 // this should log: true
-
+console.log("Is numberStudents less than or equal to 21?", numberStudents <= 21);
 
 //-------------------
 // PART 2: Articulating what you are doing
@@ -74,21 +74,28 @@ you develop good habits that follow best practice, from now on, use the strict c
 
 console.log(4 < 9);
 //YOU DO: Explain.
-
+// This line of code is determining whether or not 4 is less than 9.
+// This will log true.
 var books = 3;
-console.logs(4 < books);
+console.log(4 < books);
 // YOU DO: Explain.
-
+// This line of code is saying the number of books is 3.
+// It is determining whether or not the number of books is greater than 4.
+// This will log false.
 var friends = 6;
 var siblings = 2;
 console.log(friends > siblings);
 // YOU DO: Explain.
-
+// This line of code is saying the number of friends is 6 and the number of siblings is 2.
+// It is determining whether the number of friends is greater than the number of siblings.
+// This will log true.
 var attendees = 9;
 var meals = 8;
-console.log(attendees !== meals);
+console.log(attendees != meals)
 // YOU DO: Explain.
-
+// This line of code is saying there are 9 attendees and 8 meals.
+// It is determining if the number attendees does not equal the number of meals.
+// This will log true.
 
 //-------------------
 // PART 3: Logical Operators
@@ -110,19 +117,30 @@ var age = 1;
 
 // YOU DO:
 // Determine if the dog loves to play and loves treats
-
+console.log(lovesToPlay && lovesTreats);
+// This logs true.
 
 // Determine if the dog loves to play and loves the dog park
-
+console.log(lovesToPlay && lovesDogPark);
+// This logs false.
 
 // Determine if the dog loves to play or loves the dog park
-
+console.log(lovesToPlay || lovesDogPark);
+// This logs true.
 
 // Determine if the dog loves to play and is a puppy
+console.log(lovesToPlay && age);
+// This logs true.
 
 // What did your final line of code evaluate to? Why do you think that is? Explain.
 // ANSWER:
-
+// This final line of code evaluates to the dog loves to play and is 1 year old.
+// If we are under the assumption a 1 year old dog is a puppy, then this is valid.
+// However, to determine if the dog is a puppy, we would have to determine what age we consider a puppy.
+// For example, if we consider a dog younger than 3, we would determine
+console.log(3 > age);
+// I believe the console log would look like this:
+console.log(lovesToPlay && 3 > age);
 //-------------------
 // FINAL CHECK
 //-------------------
