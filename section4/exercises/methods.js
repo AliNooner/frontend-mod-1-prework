@@ -18,3 +18,29 @@ var lunchOrder = {
   beverage: "iced tea",
   tableNumber: 47
 }
+console.log(lunchOrder)
+// To log a sentence to let the user know their lunch order is being worked on
+var lunchOrder = {
+  dish: "BLT",
+  beverage: "iced tea",
+  tableNumber: 47,
+  prepared: function() {
+    console.log("Your lunch order is being worked on.");
+  }
+  };
+
+  lunchOrder.prepared ();
+  console.log(lunchOrder)
+
+// To log a sentence to let the user know their lunch order is complete
+  var lunchOrder = {
+  dish: "BLT",
+  beverage: "iced tea",
+  tableNumber: 47,
+  complete: function() {
+    console.log("Your lunch order is complete.");
+  }
+  };
+
+  lunchOrder.complete ();
+  console.log(lunchOrder)
