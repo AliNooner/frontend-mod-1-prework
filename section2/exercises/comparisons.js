@@ -134,10 +134,10 @@ console.log(lovesToPlay && age);
 
 // What did your final line of code evaluate to? Why do you think that is? Explain.
 // ANSWER:
-// This final line of code evaluates to the dog loves to play and is 1 year old.
+// This final line of code evaluates that the dog loves to play and is 1 year old.
 // If we are under the assumption a 1 year old dog is a puppy, then this is valid.
 // However, to determine if the dog is a puppy, we would have to determine what age we consider a puppy.
-// For example, if we consider a dog younger than 3, we would determine
+// For example, if we consider a puppy is a dog younger than 3 years old, we would determine
 console.log(3 > age);
 // I believe the console log would look like this:
 console.log(lovesToPlay && 3 > age);
@@ -147,3 +147,4 @@ console.log(lovesToPlay && 3 > age);
 
 // Did you run this file in your terminal to make sure everything printed out to the console
 // as you would expect?
+// Yep! :] 

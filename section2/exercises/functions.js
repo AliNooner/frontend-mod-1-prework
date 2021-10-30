@@ -17,7 +17,7 @@ function printName() {
   console.log("Severus Snape");
 };
 
-printName(); 
+printName();
 printName();
 printName();
 printName();
@@ -27,6 +27,13 @@ printName();
 // YOU DO: Write a function named sayHello that logs to the console "Oh, Hello!"
 // Then, call the function 2 times.
 
+function greeting() {
+  console.log("Oh, hello!");
+}
+
+greeting();
+greeting();
+
 //-------------------
 // PART 2: Arguments and Parameters
 //-------------------
@@ -35,19 +42,47 @@ printName();
 // The function should print out the value of the String that was passed in.
 // Then, call the function 3 times, each time, passing it a different name.
 
+// Will print name
 
+function greetMe(name){
+  console.log(name)
+}
+
+  greetMe("Ali");
+  greetMe("Lara");
+  greetMe("Nicole");
+
+// Will print Hi there (name)
+
+  function greetMe(name){
+    console.log("Hi there " + name)
+  }
+
+    greetMe("Ali");
+    greetMe("Lara");
+    greetMe("Nicole");
 
 // YOU DO: Write a function that takes in 2 numbers as arguments, Numbers, and logs their sum
 // Then, call that function 3 times, each time, passing in 2 different Numbers.
 
 
+function calculateSum(num1, num2){
+  var sum = num1 + num2;
+  console.log(sum)
+}
+
+var sum1 = calculateSum(1, 2);
+var sum2 = calculateSum(2,2);
+var sum3 = calculateSum(200,400);
 
 // YOU DO🎈: Write a function that takes in two strings and prints a concatenation
 // of those two strings, for example the arguments could be ("Oscar", "Ruck") and
 // the end result might be "Oscar and Ruck are BFFS".  Then, call that function.
 
-
-
+function areSisters(sister1, sister2){
+  console.log(sister1 + " and " + sister2 + " are sisters.");
+}
+areSisters("Ali", "Lara")
 //-------------------
 // PART 3: Naming is Hard
 //-------------------
@@ -61,5 +96,8 @@ What did you name each parameter, and why?
 
 EXPLAIN:
 
+// I named the function areSisters because this function will be declaring that two sisters are sisters
+// It is a really basic example, but I wanted to make sure I understood what I was doing and why.
+// I named the parameters to represent the first sister (sister1) and the second sister (sister2).
 
 */
